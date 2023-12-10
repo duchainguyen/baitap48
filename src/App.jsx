@@ -13,6 +13,7 @@ function App() {
       ) : (
         <Profile user={user} logout={logout} />
       )}
+      {/* <LoginButton /> */}
     </div>
   );
 }
