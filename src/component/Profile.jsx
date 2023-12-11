@@ -53,7 +53,7 @@ const Profile = () => {
               id="textarea"
               rows="10"
               cols="50"
-              defaultValue="Tôi cần hỗ trợ tài chính!"
+              defaultValue="Hãy cho tôi biết bạn cần gì?"
             ></textarea>
           </div>
           <button className="form-submit-btn" type="submit">
