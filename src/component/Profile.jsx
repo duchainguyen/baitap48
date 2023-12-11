@@ -40,7 +40,11 @@ const Profile = () => {
         <form ref={form} action="" onSubmit={sendEmail}>
           <div className="form-group">
             <label htmlFor="email">Company Email</label>
-            <input type="email" name="from_email" value={"example@email.com"} />
+            <input
+              type="email"
+              name="from_email"
+              defaultValue="example@email.com"
+            />
           </div>
           <div className="form-group">
             <label htmlFor="textarea">Tin nhắn</label>
